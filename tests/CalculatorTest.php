@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace JefvdA\PhpTemplate\Tests;
+namespace JefvdA\SymfonyApiTemplate\Tests;
 
-use JefvdA\PhpTemplate\Calculator;
+use JefvdA\SymfonyApiTemplate\Calculator;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

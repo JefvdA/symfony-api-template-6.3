@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace JefvdA\PhpTemplate;
+namespace JefvdA\SymfonyApiTemplate;
 
 final class Calculator
 {

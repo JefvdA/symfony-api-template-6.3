@@ -473,6 +473,16 @@ composer.lock
 *.sass.map
 *.scss.map
 
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
 ##### Php-cs-fixer
 .php-cs-fixer.php
 .php-cs-fixer.cache
@@ -481,3 +491,14 @@ composer.lock
 .phpunit.cache
 .phpunit.result.cache
 
+##### ENV
+.env
+
+###> phpstan/phpstan ###
+phpstan.neon
+###< phpstan/phpstan ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###

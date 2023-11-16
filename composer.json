@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JefvdA\\SymfonyTemplate\\": "src/"
+            "JefvdA\\SymfonyApiTemplate\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JefvdA\\SymfonyTemplate\\Tests\\": "tests/"
+            "JefvdA\\SymfonyApiTemplate\\Tests\\": "tests/"
         }
     },
     "replace": {
