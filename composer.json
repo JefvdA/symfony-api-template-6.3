@@ -1,0 +1,29 @@
+{
+    "name": "jefvda/php-template",
+    "description": "A template for php projects.",
+    "version": "0.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JefvdA\\PhpTemplate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JefvdA\\PhpTemplate\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JefvdA"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpstan/phpstan": "*"
+    },
+    "scripts": {
+        "fix": "tools/php-cs-fixer/vendor/bin/php-cs-fixer fix"
+    }
+}
